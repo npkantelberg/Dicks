@@ -1,0 +1,207 @@
+{
+    "RPT": {
+        "ScanTime": "0.324 sec.",
+        "ScanFile": "20200301_dicksdrivein_c77994ce444867456933_20200301155142_scan.json",
+        "ScanCreated": "2020-03-01 15:51:43",
+        "ScanPath": "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/backups-dup-pro\/tmp\/20200301_dicksdrivein_c77994ce444867456933_20200301155142_scan.json"
+    },
+    "SRV": {
+        "Brand": {
+            "LogoAttachmentExists": false,
+            "LogoCount": 0,
+            "LogoFinded": 0,
+            "LogoImageExists": true,
+            "LogoImages": [],
+            "Name": "Default",
+            "Notes": "The default content used when a brand is not defined"
+        },
+        "HOST": [],
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "openssl": true,
+            "mysqli": true,
+            "allowurlfopen": true,
+            "curlavailable": true,
+            "version": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ismuplus": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "55.04MB",
+        "DirCount": "384",
+        "FileCount": "2,988",
+        "FullCount": "3,372",
+        "USize": 57708582,
+        "UDirCount": 384,
+        "UFileCount": 2988,
+        "UFullCount": 3372,
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/.opcache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/.tmb",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/ai1wm-backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/backups-dup-pro",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/backups-dup-pro",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/backupwordpress",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/cache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/content\/cache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/contents\/cache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/infinitewp\/backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/managewp\/backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/old-cache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/plugins\/really-simple-captcha\/tmp",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/plugins\/wordfence\/tmp",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/updraft",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/aiowps_backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/backup-guard",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/backupbuddy_backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/backupbuddy_temp",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/mainwp\/backup",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/pb_backupbuddy",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/snapshots",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/sucuri",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/wp-clone",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/wp_all_backup",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/uploads\/wpbackitup_backups",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/wfcache",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-content\/wishlist-backup",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            ".DS_Store",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/.htaccess",
+            "\/Applications\/MAMP\/htdocs\/dicks\/wordpress\/wp-config.php",
+            "dbcache",
+            "debug_log",
+            "error_log",
+            "objectcache",
+            "pgcache",
+            "ws_ftp.log"
+        ],
+        "FilterExtsAll": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "Big": "Good",
+            "AddonSites": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateFuncStatus": "Good",
+            "showCreateFunc": true
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "Size": "Good",
+            "Rows": "Good"
+        },
+        "Size": "1.7MB",
+        "Rows": "185",
+        "TableCount": 14,
+        "TableList": {
+            "wp_commentmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_comments": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "96KB",
+                "USize": 98304
+            },
+            "wp_duplicator_pro_entities": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_duplicator_pro_packages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_options": {
+                "Case": 0,
+                "Rows": "151",
+                "Size": "1.06MB",
+                "USize": 1114112
+            },
+            "wp_postmeta": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_posts": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "80KB",
+                "USize": 81920
+            },
+            "wp_term_relationships": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "wp_term_taxonomy": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_termmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_terms": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_usermeta": {
+                "Case": 0,
+                "Rows": "18",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "wp_users": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "64KB",
+                "USize": 65536
+            }
+        }
+    },
+    "Status": 1
+}
