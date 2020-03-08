@@ -1,16 +1,99 @@
-/*
 
-*/
 
-.logo{
-  img{
-    max-width: 200px;
+
+/* Header Styles */
+#header{
+  background-color: #555;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 100;
+  nav#menu{
+    .menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .menu-item{
+        height: 77px;
+        display: flex;
+        align-items: center;
+        a {
+          padding: 0px 25px;
+          display: flex;
+          align-items: center;
+          height: 50px;
+          border-bottom: solid 2px #fff;
+          position: relative;
+          &:after{
+            width: 0px;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            transition: .3s all;
+            height: 2px;
+            content: '';
+          }
+          &:hover{
+            &:after{
+              width: 100%;
+              transition: .3s all;
+              background: #008797;
+            }
+          }
+        }
+      }
+    }
+  }
+  .logo{
+    img{
+      max-width: 200px;
+    }
+  }
+  .menu{
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
   }
 }
 .hero-section{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background: url(../../images/dicks-banner.jpg) no-repeat center center;
+  background-size: cover;
+  z-index: -1;
   .hero-container{
     img{
       width: 100%;
+    }
+  }
+}
+.about-section{
+  margin-top: 100vh;
+  background: #fff;
+  .about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .about-box{
+      flex-basis: 50%;
+      &.about-text{
+
+      }
+      &.hours-text{
+        
+      }
     }
   }
 }
