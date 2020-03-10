@@ -1,0 +1,20 @@
+.wprs_unslider-nav ol {
+  list-style: none;
+  text-align: center;
+}
+.wprs_unslider-nav ol li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0 4px;
+    background: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    text-indent: -999em;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
+}
+.wprs_unslider-nav ol li.wprs_unslider-active {
+  background: #c3c3c3;
+  cursor: default;
+}

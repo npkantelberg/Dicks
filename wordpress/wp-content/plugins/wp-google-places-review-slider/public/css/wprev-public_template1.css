@@ -1,0 +1,164 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /*
+ * template style 1 css
+ */
+ .wprevpro_t1_outer_div {
+    padding: 0px;
+    margin: 0px -10px 0px -10px;
+}
+
+.wprevpro_t1_DIV_1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 277.5px 115px;
+    transform-origin: 277.5px 115px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	/*margin: 10px 5px 10px 5px;
+	float: left;
+	width:25%;*/
+}/*.wprevpro_t1_DIV_1*/
+
+.wprevpro_t1_DIV_2 {
+    bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 2px 2px 2px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: auto;
+    left: 0px;
+    position: relative;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 277.5px 69px;
+    transform-origin: 277.5px 69px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(245, 245, 245);
+    font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 25px;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 20px 20px 20px 48px;
+}/*.wprevpro_t1_DIV_2*/
+
+.wprevpro_t1_DIV_2:after {
+    bottom: -30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    content: '';
+    display: block;
+    height: 30px;
+    left: 80px;
+    position: absolute;
+    right: 445px;
+    text-size-adjust: 100%;
+    width: 30px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 15px 15px;
+    transform-origin: 15px 15px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.0980392) 2px 2px 1px);
+    border-top: 30px solid rgb(255, 255, 255);
+    border-right: 30px solid rgba(0, 0, 0, 0);
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    border-left: 0px solid rgba(0, 0, 0, 0);
+    font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+}/*.wprevpro_t1_DIV_2:after*/
+
+.wprevpro_t1_DIV_2:before {
+    bottom: 47px;
+    box-sizing: border-box;
+    color: rgb(187, 187, 187);
+    content: '\201C';
+    display: block;
+    height: 96px;
+    left: 55px;
+    position: absolute;
+    right: 515.391px;
+    text-size-adjust: 100%;
+    top: 20px;
+    width: 24.6094px;
+    column-rule-color: rgb(187, 187, 187);
+    perspective-origin: 12.2969px 48px;
+    transform-origin: 12.2969px 48px;
+    border: 0px none rgb(187, 187, 187);
+    font: normal normal normal normal 60px / 96px Georgia, serif;
+    margin: -25px 0px 0px -40px;
+    outline: rgb(187, 187, 187) none 0px;
+}/*.wprevpro_t1_DIV_2:before*/
+
+.wprevpro_t1_P_3 {
+    box-sizing: border-box;
+    color: rgb(119, 119, 119);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(119, 119, 119);
+    perspective-origin: 240px 44px;
+    transform-origin: 240px 44px;
+    border: 0px none rgb(119, 119, 119);
+    font: italic normal normal normal 14px / 22.4px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 10px;
+    outline: rgb(119, 119, 119) none 0px;
+}/*.wprevpro_t1_P_3*/
+
+.wprevpro_t1_IMG_4 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    height: 60px;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 60px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 30px 30px;
+    transform-origin: 30px 30px;
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 50% 50% 50% 50% !important;
+    font: normal normal normal normal 13px / 20.8px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 20px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*.wprevpro_t1_IMG_4*/
+
+.wprevpro_t1_SPAN_5 {
+    color: rgb(85, 85, 85);
+    display: block;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 8px 0px 0px;
+}/*.wprevpro_t1_SPAN_5*/
+
+.marginb10 {
+    margin-bottom: 10px;
+}
+.w3_wprs-row-padding-small {
+	padding: 0 4px;
+}
+.noboxshadow {
+    box-shadow: rgba(0, 0, 0, 0.0) 0px 0px 0px 0px;
+}
+.wprevpro_t1_P_3 > img {
+    box-shadow: 0 0 0 rgba(0,0,0,.0);
+}
+.wprevpro_t1_A_8 > img {
+    box-shadow: 0 0 0 0;
+    padding: 0px;
+}
+img.wprevpro_t1_star_img_file {
+    width: 100px;
+}
+img.wprevpro_t1_yelp_logo {
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+}
+/*------end template style 1 --------*/

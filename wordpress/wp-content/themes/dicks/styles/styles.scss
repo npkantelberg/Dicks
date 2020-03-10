@@ -1,6 +1,19 @@
 
 
+/* Variables */
+$primary: #008797;
 
+/* General Styles */
+html{
+  a,
+  *{
+    font-family: 'Sen', sans-serif;
+    color: #333;
+  }
+} 
+section{
+  background: #fff;
+}
 /* Header Styles */
 #header{
   background-color: #555;
@@ -43,7 +56,7 @@
             &:after{
               width: 100%;
               transition: .3s all;
-              background: #008797;
+              background: $primary;
             }
           }
         }
@@ -63,6 +76,7 @@
     }
   }
 }
+/* Hero Styles */
 .hero-section{
   position: fixed;
   top: 0;
@@ -70,7 +84,7 @@
   right: 0;
   bottom: 0;
   height: 100vh;
-  background: url(../../images/dicks-banner.jpg) no-repeat center center;
+  background: url(../../images/dicks-banner-dark-resize.jpg) no-repeat center center;
   background-size: cover;
   z-index: -1;
   .hero-container{
@@ -79,21 +93,84 @@
     }
   }
 }
-.about-section{
+
+/* Our Menu Styles */
+.menu-section{
   margin-top: 100vh;
+  max-width: 100%;
+  padding: 50px;
+  .menu-container{
+    .menu-heading {
+      color: #222;
+      font-size: 22px;
+      font-style: italic;
+      border: solid 2px #008797;
+      padding: 10px 25px;
+      flex-basis: 33%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+/* About Styles */
+.about-section{
   background: #fff;
+  padding: 50px;
+  .about-header{
+    margin-bottom: 30px;
+    h2{
+      font-size: 45px;
+      text-align: center;
+    }
+  }
   .about-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     .about-box{
-      flex-basis: 50%;
+      flex: 1 1 450px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-width: 450px;
+      @media (max-width: 500px){
+        min-width: 320px;
+      }
+      p{
+        margin-bottom: 10px;
+      }
       &.about-text{
-
+        padding: 25px;
       }
       &.hours-text{
-        
+
+      }
+      .contact-us-text{
+        font-size: 18px;
+        border: solid 2px $primary;
+        padding: 10px;
+        background: rgba(0,126,151,0.3);
+        transition: .3s all;
+        border-radius: 35px;
+        text-decoration: none;
+        color: #222;
+        &:hover{
+          background: rgba(0, 125, 151, 0.5);
+          transition: .3s all;
+          color: #fff;
+          text-decoration: none;
+        }
       }
     }
+  }
+}
+
+/* Review Styles */
+.review-section{
+  .review-container{
+    max-width: 90%;
+    margin: 0 auto;
   }
 }

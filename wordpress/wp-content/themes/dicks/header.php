@@ -4,6 +4,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/styles/compiled/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

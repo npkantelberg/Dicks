@@ -1,0 +1,210 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .fs-freemium-licensing {
+    display: none;
+}
+
+ div#wp_fb-settings {
+    width: 95%;
+    background-color: white;
+    border-style: solid;
+    border-color: #E6E6E6;
+    border-width: 15px;
+    padding: 10px;
+	margin: 10px 0px 0 -10px;
+}
+
+a.nav-tab.nav-tab-active {
+	background: #ffffff;
+    border-bottom-color: white;
+}
+.margin_top_5 {
+	margin-top: 5px;
+}
+.btn_green{
+    background: #1DBA00;
+    border-color: #32AA00 #109900 #189900;
+    -webkit-box-shadow: 0 1px 0 #189900;
+    box-shadow: 0 1px 0 #109900;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #099900,1px 0 1px #1F9900,0 1px 1px #109900,-1px 0 1px #109900;
+	display: inline-block;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.btn_off{
+    color: #d2d2d2 !important;
+    cursor: default !important;
+
+}
+
+div#setting-error-settings_updated {
+    background: aliceblue;
+}
+
+.text_green {
+    color: #00d600;
+}
+.notice, .updated {
+    background-color: rgba(0, 160, 210, 0.14) !important;
+}
+
+/*-------- popup style -------*/
+.wpfbr_hide {
+	display: none;
+}
+.popup-wrapper {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px #aaa;
+  overflow: hidden;
+}
+
+.popup-title {
+  padding: 10px 15px;
+  background-color: #0073aa;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.popup-title h3 {
+  margin: 0;
+  line-height: 1.5em;
+  color: #ccc;
+}
+
+.popup-body {
+  padding: 10px 15px;
+  color: #555;
+}
+
+.popup-close {
+    float: right;
+    margin-top: -2px;
+    padding: 0;
+    font-size: 26px;
+    line-height: 1;
+    border: 0;
+    background: transparent;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.popup-close:hover { color: #333; }
+
+#popup_bobytext2 {
+    font-weight: bold;
+}
+/*---------------review list page-------------*/
+.editrev {
+    cursor: pointer;
+}
+.wpfbr_margin10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wpfbr_btnicononly {
+    padding-left: 4px !important;
+	padding-right: 3px !important;
+}
+.dashicons-before::before {
+    padding-top: 3px;
+    padding-right: 2px;
+}
+#wpfb_review_list_pagination_bar {
+    margin-top: 10px;
+}
+a.button.blue_grey {
+    background: #cccccc;
+}
+/*-----------template post page-------------*/
+div#wpfbr_new_template {
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    padding: 10px;
+	display: none;
+}
+.wpfbr_template_thumb{
+    width: 200px;
+    margin-top: 10px;
+}
+.divtemplatestyle {
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eaeaea;
+    padding: 10px;
+}
+.slidersettingsdivs {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dadada;
+    padding: 8px;
+}
+.slidersettingsdiv {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.slidersettingsdivtoprow {
+    margin-top: 4px;
+}
+select#wpfbr_t_display_num {
+    margin-right: 20px;
+}
+.selectrevstable th {
+    padding: 7px;
+    font-weight: normal;
+    display: table-cell;
+    vertical-align: inherit;
+}
+input#wprevpro_filter_table_name {
+    padding: 4px;
+    margin-top: -2px;
+}
+div#wprevpro_list_pagination_bar {
+    margin-top: 5px;
+}
+th.wprevpro_tablesort.manage-column {
+    cursor: pointer;
+}
+table.selectrevstable.wp-list-table.widefat.striped.posts {
+    margin-top: 10px;
+}
+span#wprevpro_selectedrevsdiv {
+    cursor: pointer;
+    vertical-align: -webkit-baseline-middle;
+}
+tbody#review_list_select {
+    cursor: pointer;
+}
+.wprevpre_temp_label_row {
+    height: 35px;
+}
+.wp-picker-container.wp-picker-active {
+    z-index: 999 !important;
+    position: absolute !important;
+}
+
+div#wprevpro_template_preview {
+    margin-left: -10px;
+}
+.showapikey {
+    display: none;
+}

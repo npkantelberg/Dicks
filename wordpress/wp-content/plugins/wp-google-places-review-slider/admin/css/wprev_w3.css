@@ -1,0 +1,44 @@
+﻿.w3_wprs-responsive{overflow-x:auto}
+.w3_wprs-container:after,.w3_wprs-panel:after,.w3_wprs-row:after,.w3_wprs-row-padding:after,.w3_wprs-topnav:after,.w3_wprs-clear:after,.w3_wprs-btn-group:before,.w3_wprs-btn-group:after,.w3_wprs-btn-bar:before,.w3_wprs-btn-bar:after
+{content:"";display:table;clear:both}
+.w3_wprs-col,.w3_wprs-half,.w3_wprs-third,.w3_wprs-twothird,.w3_wprs-threequarter,.w3_wprs-quarter{float:left;width:100%}
+.w3_wprs-col.s1{width:8.33333%}
+.w3_wprs-col.s2{width:16.66666%}
+.w3_wprs-col.s3{width:24.99999%}
+.w3_wprs-col.s4{width:33.33333%}
+.w3_wprs-col.s5{width:41.66666%}
+.w3_wprs-col.s6{width:49.99999%}
+.w3_wprs-col.s7{width:58.33333%}
+.w3_wprs-col.s8{width:66.66666%}
+.w3_wprs-col.s9{width:74.99999%}
+.w3_wprs-col.s10{width:83.33333%}
+.w3_wprs-col.s11{width:91.66666%}
+.w3_wprs-col.s12,.w3_wprs-half,.w3_wprs-third,.w3_wprs-twothird,.w3_wprs-threequarter,.w3_wprs-quarter{width:99.99999%}
+@media only screen and (min-width:601px){
+.w3_wprs-col.m1{width:8.33333%}
+.w3_wprs-col.m2{width:16.66666%}
+.w3_wprs-col.m3,.w3_wprs-quarter{width:24.99999%}
+.w3_wprs-col.m4,.w3_wprs-third{width:33.33333%}
+.w3_wprs-col.m5{width:41.66666%}
+.w3_wprs-col.m6,.w3_wprs-half{width:49.99999%}
+.w3_wprs-col.m7{width:58.33333%}
+.w3_wprs-col.m8,.w3_wprs-twothird{width:66.66666%}
+.w3_wprs-col.m9,.w3_wprs-threequarter{width:74.99999%}
+.w3_wprs-col.m10{width:83.33333%}
+.w3_wprs-col.m11{width:91.66666%}
+.w3_wprs-col.m12{width:99.99999%}}
+@media only screen and (min-width:993px){
+.w3_wprs-col.l1{width:8.33333%}
+.w3_wprs-col.l2{width:16.66666%}
+.w3_wprs-col.l3,.w3_wprs-quarter{width:24.99999%}
+.w3_wprs-col.l4,.w3_wprs-third{width:33.33333%}
+.w3_wprs-col.l5{width:41.66666%}
+.w3_wprs-col.l6,.w3_wprs-half{width:49.99999%}
+.w3_wprs-col.l7{width:58.33333%}
+.w3_wprs-col.l8,.w3_wprs-twothird{width:66.66666%}
+.w3_wprs-col.l9,.w3_wprs-threequarter{width:74.99999%}
+.w3_wprs-col.l10{width:83.33333%}
+.w3_wprs-col.l11{width:91.66666%}
+.w3_wprs-col.l12{width:99.99999%}}
+.w3_wprs-content{max-width:980px;margin:auto}
+.w3_wprs-row-padding,.w3_wprs-row-padding>.w3_wprs-half,.w3_wprs-row-padding>.w3_wprs-third,.w3_wprs-row-padding>.w3_wprs-twothird,.w3_wprs-row-padding>.w3_wprs-threequarter,.w3_wprs-row-padding>.w3_wprs-quarter,.w3_wprs-row-padding>.w3_wprs-col{padding:0 8px}
