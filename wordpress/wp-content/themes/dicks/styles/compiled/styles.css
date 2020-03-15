@@ -5,6 +5,12 @@ html * {
   font-family: 'Sen', sans-serif;
   color: #333; }
 
+.italic {
+  font-style: italic; }
+
+.bold {
+  font-weight: bold; }
+
 section {
   background: #fff; }
 
@@ -73,16 +79,44 @@ section {
 .menu-section {
   margin-top: 100vh;
   max-width: 100%;
-  padding: 50px; }
+  padding: 50px;
+  background: #eee; }
   .menu-section .menu-container .menu-heading {
     color: #222;
     font-size: 22px;
     font-style: italic;
     border: solid 2px #008797;
     padding: 10px 25px;
-    flex-basis: 33%;
     display: block;
-    text-align: center; }
+    text-align: center;
+    margin-top: 30px; }
+  .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body {
+    text-transform: uppercase; }
+    .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 10px; }
+      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper:nth-child(2n) {
+        background: #ccc; }
+      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price .menu-price-split .price-span:not(:last-of-type) {
+        margin-right: 10px; }
+    .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      padding: 10px; }
+      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types .price-type {
+        margin-right: 20px; }
+        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types .price-type:not(:last-of-type) {
+          margin-right: 30px; }
+    .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-price .menu-price-split .price-span:not(:last-of-type) {
+      margin-right: 10px; }
+    .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body span.italic {
+      font-style: italic;
+      padding: 10px;
+      display: block;
+      text-align: center; }
 
 /* About Styles */
 .about-section {
