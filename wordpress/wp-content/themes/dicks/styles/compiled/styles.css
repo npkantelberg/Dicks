@@ -5,6 +5,39 @@ html * {
   font-family: 'Sen', sans-serif;
   color: #333; }
 
+html .section-heading {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  border-bottom: solid 2px #000;
+  width: 80%;
+  margin: 0 auto 20px auto;
+  min-width: 300px; }
+
+html .custom-btn,
+html div.wpforms-container-full .wpforms-form button.custom-btn[type="submit"] {
+  font-size: 18px;
+  border: solid 2px #008797;
+  padding: 10px;
+  background: rgba(0, 126, 151, 0.3);
+  transition: .3s all;
+  border-radius: 35px;
+  text-decoration: none;
+  color: #222;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%; }
+  html .custom-btn:hover,
+  html div.wpforms-container-full .wpforms-form button.custom-btn[type="submit"]:hover {
+    background: rgba(0, 125, 151, 0.5);
+    transition: .3s all;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer; }
+
 .italic {
   font-style: italic; }
 
@@ -164,3 +197,43 @@ section {
 .review-section .review-container {
   max-width: 90%;
   margin: 0 auto; }
+
+/*Application Styles*/
+.application-button.custon-btn {
+  margin: 10px auto; }
+
+div.wpforms-container-full {
+  padding: 30px !important; }
+  div.wpforms-container-full .wpforms-form .wpforms-field-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; }
+  div.wpforms-container-full .wpforms-form .wpforms-field.full {
+    width: 100%; }
+    div.wpforms-container-full .wpforms-form .wpforms-field.full .wpforms-one-half {
+      margin-left: 20px; }
+  div.wpforms-container-full .wpforms-form .wpforms-field.half {
+    width: 50%;
+    min-width: 300px; }
+    div.wpforms-container-full .wpforms-form .wpforms-field.half input {
+      width: 100%;
+      max-width: 96.5%;
+      margin: 0 auto; }
+  div.wpforms-container-full .wpforms-submit-container {
+    text-align: center; }
+
+.application-wrapper {
+  height: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  transition: .3s all; }
+  .application-wrapper.open {
+    height: 100%;
+    max-height: 1000px;
+    transition: .3s all; }
+
+/*Footer Styles*/
+#footer {
+  background: #fff;
+  padding: 15px; }

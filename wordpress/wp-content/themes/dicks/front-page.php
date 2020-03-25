@@ -8,6 +8,7 @@
   <section class="menu-section">
     <div class="menu-container">
       <div class="menu-headings">
+        <h2 class="section-heading">Menu</h2>
       </div>
       <div class="row our-menu-row">
         <div class="col our-menu-col col-xs-12 col-sm-6 col-md-4">
@@ -571,7 +572,22 @@
       </div>
     </div>
   </section>
+  <section class="application-section">
+    <h2 class="section-heading">Apply Now!</h2>
+    <div class="application-content">
+      <p>
+        Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
+      </p>
+      <div class="application-button custom-btn">
+        Apply Now!
+      </div>
+    </div>
+    <div class="application-wrapper">
+      <?php echo do_shortcode('[wpforms id="19" title="false" description="false"]') ?>
+    </div>
+  </section>
   <section class="review-section">
+    <h2 class="section-heading">Reviews</h2>
     <div class="review-container">
       <?php echo do_shortcode('[wprevpro_usetemplate tid="1"]'); ?>
     </div>
@@ -581,7 +597,7 @@
 
     </div>
     <div class="about-header">
-      <H2>GET TO KNOW US!</H2>
+      <h2 class="section-heading">GET TO KNOW US!</h2>
     </div>
     <div class="about-container">
       <div class="about-box about-text">
@@ -597,6 +613,6 @@
         <?php echo do_shortcode('[wpgmza id="1"]'); ?>
       </div>
     </div>
-  </section>
+  </section> 
 </main>
 <?php get_footer(); ?>
