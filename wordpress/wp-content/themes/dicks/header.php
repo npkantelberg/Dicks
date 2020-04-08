@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/scripts/custom-scripts.js"></script> 
+<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -15,6 +16,12 @@
     <header id="header">
       <div id="branding" class="logo">
         <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="Dicks Drive-In logo">
+      </div>
+      <div class="mobile-menu-trigger">
+        <div class="delimiter"></div>
+        <div class="delimiter"></div>
+        <div class="delimiter"></div>
+        <div class="delimiter"></div>
       </div>
       <nav id="menu">
         <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>

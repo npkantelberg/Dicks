@@ -2,7 +2,12 @@
 <main id="content">
   <!-- Add homepage content here -->
   <section class="hero-section">
-    <div class="hero-container">      
+    <div class="hero-container">  
+      <div class="hero-content">
+        <p class="hero-header">Dick's</p>
+        <p class="hero-header">Drive-In</p>
+        <p class="est">est. 1955</p>
+      </div>  
     </div>
   </section>
   <section class="menu-section">
@@ -575,11 +580,20 @@
   <section class="application-section">
     <h2 class="section-heading">Apply Now!</h2>
     <div class="application-content">
-      <p>
-        Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
-      </p>
-      <div class="application-button custom-btn">
-        Apply Now!
+      <div class="application-content-left">
+        <p>
+          Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
+        </p>
+        <p>
+          Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
+        </p>
+      </div>
+      <div class="application-content-right">
+      </div>
+      <div class="application-button-wrap">
+        <div class="application-button custom-btn">
+          Apply Now!
+        </div>
       </div>
     </div>
     <div class="application-wrapper">

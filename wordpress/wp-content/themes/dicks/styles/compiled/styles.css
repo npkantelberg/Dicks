@@ -12,8 +12,7 @@ html .section-heading {
   padding: 30px 0px;
   border-bottom: solid 2px #000;
   width: 80%;
-  margin: 0 auto 20px auto;
-  min-width: 300px; }
+  margin: 0 auto 20px auto; }
 
 html .custom-btn,
 html div.wpforms-container-full .wpforms-form button.custom-btn[type="submit"] {
@@ -38,6 +37,9 @@ html div.wpforms-container-full .wpforms-form button.custom-btn[type="submit"] {
     text-decoration: none;
     cursor: pointer; }
 
+html section {
+  background: #eee; }
+
 .italic {
   font-style: italic; }
 
@@ -49,7 +51,7 @@ section {
 
 /* Header Styles */
 #header {
-  background-color: #555;
+  background-color: #222;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -58,8 +60,39 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 100; }
+  z-index: 100;
+  flex-wrap: wrap; }
+  @media (min-width: 500px) {
+    #header .mobile-menu-trigger {
+      display: none; } }
+  @media (max-width: 499px) {
+    #header .mobile-menu-trigger {
+      width: 40px;
+      background: #008797;
+      height: 40px;
+      border-radius: 5px; }
+      #header .mobile-menu-trigger .delimiter {
+        background: #fff;
+        height: 2px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 6px;
+        box-shadow: 2px 1px 5px #000; } }
+  @media (max-width: 499px) {
+    #header nav#menu {
+      width: 100%;
+      height: 0px;
+      overflow: hidden;
+      transition: .3s all; }
+      #header nav#menu.open {
+        height: 77px;
+        transition: .3s all; }
+      #header nav#menu .menu .menu-item {
+        flex-basis: 25%;
+        width: 25%; }
+        #header nav#menu .menu .menu-item a {
+          width: 100%;
+          justify-content: center; } }
   #header nav#menu .menu {
     display: flex;
     justify-content: space-between;
@@ -75,6 +108,14 @@ section {
         height: 50px;
         border-bottom: solid 2px #fff;
         position: relative; }
+        @media (max-width: 767px) {
+          #header nav#menu .menu .menu-item a {
+            padding: 0px 15px;
+            font-size: 15px; } }
+        @media (max-width: 425px) {
+          #header nav#menu .menu .menu-item a {
+            padding: 0px 10px;
+            font-size: 11px; } }
         #header nav#menu .menu .menu-item a:after {
           width: 0px;
           position: absolute;
@@ -89,6 +130,9 @@ section {
           background: #008797; }
   #header .logo img {
     max-width: 200px; }
+    @media (max-width: 767px) {
+      #header .logo img {
+        max-width: 100px; } }
   #header .menu a {
     color: #fff;
     text-decoration: none;
@@ -104,9 +148,49 @@ section {
   height: 100vh;
   background: url(../../images/dicks-banner-dark-resize.jpg) no-repeat center center;
   background-size: cover;
-  z-index: -1; }
-  .hero-section .hero-container img {
-    width: 100%; }
+  z-index: -1;
+  display: flex; }
+  .hero-section .hero-container {
+    width: 100%;
+    position: relative; }
+    .hero-section .hero-container img {
+      width: 100%; }
+    .hero-section .hero-container .hero-content {
+      position: absolute;
+      bottom: 100px;
+      right: 100px;
+      border-top: solid 2px #fff;
+      border-bottom: solid 2px #fff; }
+      @media (max-width: 767px) {
+        .hero-section .hero-container .hero-content {
+          bottom: 450px;
+          right: 30px; } }
+      .hero-section .hero-container .hero-content p.hero-header {
+        color: #fff;
+        font-size: 94px;
+        text-shadow: 5px 5px 5px #000; }
+        .hero-section .hero-container .hero-content p.hero-header:nth-child(2) {
+          margin-top: -20px; }
+        @media (max-width: 767px) {
+          .hero-section .hero-container .hero-content p.hero-header {
+            font-size: 34px; }
+            .hero-section .hero-container .hero-content p.hero-header:nth-child(2) {
+              margin-top: 0px; } }
+      .hero-section .hero-container .hero-content p.est {
+        font-size: 58px;
+        color: #fff;
+        display: flex;
+        align-items: flex-start;
+        text-shadow: 5px 5px 5px #000;
+        margin-top: -15px; }
+        @media (max-width: 767px) {
+          .hero-section .hero-container .hero-content p.est {
+            font-size: 28px;
+            margin-top: 0px; } }
+        .hero-section .hero-container .hero-content p.est span {
+          color: #fff;
+          font-size: 94px;
+          text-shadow: 5px 5px 5px #000; }
 
 /* Our Menu Styles */
 .menu-section {
@@ -114,6 +198,9 @@ section {
   max-width: 100%;
   padding: 50px;
   background: #eee; }
+  @media (max-width: 767px) {
+    .menu-section {
+      padding: 20px; } }
   .menu-section .menu-container .menu-heading {
     color: #222;
     font-size: 22px;
@@ -130,6 +217,9 @@ section {
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 10px; }
+      @media (max-width: 360px) {
+        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper {
+          font-size: 12px; } }
       .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper:nth-child(2n) {
         background: #ccc; }
       .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price .menu-price-split .price-span:not(:last-of-type) {
@@ -150,10 +240,12 @@ section {
       padding: 10px;
       display: block;
       text-align: center; }
+      @media (max-width: 360px) {
+        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body span.italic {
+          font-size: 12px; } }
 
 /* About Styles */
 .about-section {
-  background: #fff;
   padding: 50px; }
   .about-section .about-header {
     margin-bottom: 30px; }
@@ -199,8 +291,10 @@ section {
   margin: 0 auto; }
 
 /*Application Styles*/
-.application-button.custon-btn {
-  margin: 10px auto; }
+.application-button-wrap {
+  min-width: 100%; }
+  .application-button-wrap .application-button.custom-btn {
+    margin: 10px auto; }
 
 div.wpforms-container-full {
   padding: 30px !important; }
@@ -223,6 +317,26 @@ div.wpforms-container-full {
   div.wpforms-container-full .wpforms-submit-container {
     text-align: center; }
 
+.application-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px; }
+  .application-content p {
+    margin-bottom: 10px; }
+  .application-content .application-content-left {
+    flex: 1 1 calc(50% - 30px);
+    min-width: 320px;
+    margin: 15px; }
+  .application-content .application-content-right {
+    flex: 1 1 calc(50% - 30px);
+    background: url("../../images/apply-now-bg.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 300px;
+    min-width: 320px;
+    margin: 15px; }
+
 .application-wrapper {
   height: 100%;
   max-height: 0px;
@@ -235,5 +349,6 @@ div.wpforms-container-full {
 
 /*Footer Styles*/
 #footer {
-  background: #fff;
+  background: #eee;
+  border-top: 1px solid #ccc;
   padding: 15px; }
