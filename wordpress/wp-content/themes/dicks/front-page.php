@@ -597,7 +597,8 @@
       </div>
     </div>
     <div class="application-wrapper">
-      <?php echo do_shortcode('[wpforms id="19" title="false" description="false"]') ?>
+      <?php //echo do_shortcode('[wpforms id="19" title="false" description="false"]') ?>
+      <?php echo do_shortcode('[ninja_form id=2]'); ?>
     </div>
   </section>
   <section class="review-section">

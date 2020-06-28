@@ -46,6 +46,11 @@ html{
   section{
     background: #eee;
   }
+  body{
+    #wrapper{
+      overflow: hidden;
+    }
+  }
 }
 .italic{
   font-style: italic;
@@ -477,4 +482,34 @@ div.wpforms-container-full{
   background: #eee;
   border-top: 1px solid #ccc;
   padding: 15px;
+}
+
+.nf-form-content{
+	.submit-container{
+		input[type="button"]{
+			font-size: 18px;
+      border: solid 2px #008797;
+      padding: 10px;
+      background: rgba(0, 126, 151, 0.3);
+      transition: .3s all;
+      border-radius: 35px;
+      text-decoration: none;
+      color: #222;
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      &:hover{
+        background: rgba(0, 125, 151, 0.5);
+        transition: .3s all;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+      }
+		}
+	} 
+} 
+.nf-form-fields-required {
+  display: none;
 }
