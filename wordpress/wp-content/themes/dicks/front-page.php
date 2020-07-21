@@ -25,6 +25,10 @@
                 <div class="menu-price">$1.20</div>
               </div>
               <div class="menu-item-wrapper">
+                <div class="menu-item">Cheeseburder</div>
+                <div class="menu-price">$1.50</div>
+              </div>
+              <div class="menu-item-wrapper">
                 <div class="menu-item">Double Burger</div>
                 <div class="menu-price">$2.10</div>
               </div>
