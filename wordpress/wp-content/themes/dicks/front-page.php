@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main id="content">
   <!-- Add homepage content here -->
-  <section class="hero-section main-hero">
+  <section class="hero-section">
     <div class="hero-container">  
       <div class="hero-content">
         <p class="hero-header">Dick's</p>
