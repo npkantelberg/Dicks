@@ -15,6 +15,7 @@
       <div class="menu-headings">
         <h2 class="section-heading">Menu</h2>
       </div>
+      <div class="menu-categories visible-xs"><a href="sandwiches" class="menu-category">Sandwiches</a><a href="chicken" class="menu-category">Chicken</a><a href="side-order" class="menu-category">Side Orders</a><a href="family-packs" class="menu-category">Family Packs</a><a href="combo-specials" class="menu-category">Combo Specials</a><a href="drinks" class="menu-category">Drinks</a><a href="floats" class="menu-category">Floats & Freezes</a><a href="shakes" class="menu-category">Shakes, Malts, Sundaes</a><a href="soft-serve" class="menu-category">Soft Serve Ice Cream</a><a href="slush" class="menu-category">Slush and Ice Coffee</a><a href="ice-cream" class="menu-category">Ice Cream & Cones</a><a href="novelties" class="menu-category">Novelties</a><a href="sundaes" class="menu-category">Sundae Supremes</a><a href="flurries" class="last-menu-category menu-category">Flurries</a></div>
       <div class="row our-menu-row">
         <div class="col our-menu-col col-xs-12 col-sm-6 col-md-4">
           <div class="menu-heading">Sandwiches</div>
@@ -581,7 +582,7 @@
       </div>
     </div>
   </section>
-  <section class="application-section">
+  <section class="application-section default-padding">
     <h2 class="section-heading">Apply Now!</h2>
     <div class="application-content">
       <div class="application-content-left">
@@ -611,7 +612,7 @@
       <?php echo do_shortcode('[wprevpro_usetemplate tid="1"]'); ?>
     </div>
   </section>
-  <section class="about-section">
+  <section class="about-section default-padding">
     <div class="about-divider">
 
     </div>
@@ -626,12 +627,34 @@
         <p>
           Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
         </p>
-        <a href="tel:9207663511" class="contact-us-text">Contact Us: (920) 766-3511</a href="tel:">
       </div>
-      <div class="about-box hours-text">
-        <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+      <div class="hours-section">
+        <h3>Hours / Directions</h3>
+        <div class="hours-wrapper">
+          <div class="open-dates">
+            Open from March 1st through November 30th.
+          </div>
+          <ul class="hours-list">
+            <li class="hours-day">Monday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Tuesday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Wednesday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Thursday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Friday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Saturday: 10:30AM - 9:00PM</li>
+            <li class="hours-day">Sunday: 10:30AM - 9:00PM</li>
+          </ul>
+        </div>
       </div>
+      <div class="contact-button">
+        <a href="tel:9207663511" class="contact-us-text">Contact Us: (920) 766-3511</a>
+      </div>
+      
     </div>
   </section> 
+  <section class="map-section">
+    <div class="map-box hours-text">
+          <?php echo do_shortcode('[wpgmza id="1"]'); ?>
+    </div>
+  </section>
 </main>
 <?php get_footer(); ?>

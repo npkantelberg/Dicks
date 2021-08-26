@@ -43,6 +43,15 @@ html section {
 html body #wrapper {
   overflow: hidden; }
 
+html i.fas {
+  color: #fff; }
+
+html .default-padding {
+  padding: 50px; }
+  @media screen and (max-width: 767px) {
+    html .default-padding {
+      padding: 15px 10px; } }
+
 .italic {
   font-style: italic; }
 
@@ -65,10 +74,17 @@ section {
   right: 0;
   z-index: 100;
   flex-wrap: wrap; }
-  @media (min-width: 500px) {
-    #header .mobile-menu-trigger {
-      display: none; } }
-  @media (max-width: 499px) {
+  #header .mobile-menu-trigger {
+    margin-right: 15px; }
+    @media (min-width: 768px) {
+      #header .mobile-menu-trigger {
+        display: none; } }
+  #header .header-phone-link {
+    margin-right: 15px; }
+  #header .header-directions-link {
+    margin-left: auto;
+    margin-right: 15px; }
+  @media (max-width: 767px) {
     #header .mobile-menu-trigger {
       width: 40px;
       background: #008797;
@@ -81,7 +97,7 @@ section {
         margin: 0 auto;
         margin-top: 6px;
         box-shadow: 2px 1px 5px #000; } }
-  @media (max-width: 499px) {
+  @media (max-width: 767px) {
     #header nav#menu {
       width: 100%;
       height: 0px;
@@ -213,6 +229,17 @@ section {
     display: block;
     text-align: center;
     margin-top: 30px; }
+  .menu-section .menu-container .menu-categories {
+    text-align: center; }
+    .menu-section .menu-container .menu-categories a {
+      margin-bottom: 5px;
+      display: inline-block;
+      border-left: solid 1px #000;
+      padding: 0px 5px;
+      font-size: 14px;
+      font-style: italic; }
+    .menu-section .menu-container .menu-categories a.last-menu-category {
+      border-right: solid 1px #000; }
   .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body {
     text-transform: uppercase; }
     .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper {
@@ -248,45 +275,63 @@ section {
           font-size: 12px; } }
 
 /* About Styles */
-.about-section {
-  padding: 50px; }
-  .about-section .about-header {
-    margin-bottom: 30px; }
-    .about-section .about-header h2 {
-      font-size: 45px;
-      text-align: center; }
-  .about-section .about-container {
+.about-section .about-header {
+  margin-bottom: 30px; }
+  .about-section .about-header h2 {
+    font-size: 45px;
+    text-align: center; }
+
+.about-section .about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start; }
+  .about-section .about-container .about-box {
+    flex: 1 0 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center; }
-    .about-section .about-container .about-box {
-      flex: 1 1 450px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      min-width: 450px; }
-      @media (max-width: 500px) {
-        .about-section .about-container .about-box {
-          min-width: 320px; } }
-      .about-section .about-container .about-box p {
-        margin-bottom: 10px; }
-      .about-section .about-container .about-box.about-text {
-        padding: 25px; }
-      .about-section .about-container .about-box .contact-us-text {
-        font-size: 18px;
-        border: solid 2px #008797;
-        padding: 10px;
-        background: rgba(0, 126, 151, 0.3);
+    justify-content: center;
+    min-width: 450px; }
+    @media (max-width: 500px) {
+      .about-section .about-container .about-box {
+        min-width: 320px; } }
+    .about-section .about-container .about-box p {
+      margin-bottom: 10px; }
+    .about-section .about-container .about-box.about-text {
+      padding: 25px;
+      width: 50%; }
+  .about-section .about-container .hours-section {
+    width: 50%;
+    padding: 25px;
+    flex: 1 1 50%;
+    text-align: center; }
+    .about-section .about-container .hours-section h3 {
+      font-size: 30px;
+      font-weight: bold;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+      max-width: 300px;
+      margin: 0 auto 10px auto; }
+    .about-section .about-container .hours-section .hours-list .hours-day {
+      margin-top: 5px; }
+  .about-section .about-container .contact-button {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .about-section .about-container .contact-button .contact-us-text {
+      font-size: 18px;
+      border: solid 2px #008797;
+      padding: 10px;
+      background: rgba(0, 126, 151, 0.3);
+      transition: .3s all;
+      border-radius: 35px;
+      text-decoration: none;
+      color: #222; }
+      .about-section .about-container .contact-button .contact-us-text:hover {
+        background: rgba(0, 125, 151, 0.5);
         transition: .3s all;
-        border-radius: 35px;
-        text-decoration: none;
-        color: #222; }
-        .about-section .about-container .about-box .contact-us-text:hover {
-          background: rgba(0, 125, 151, 0.5);
-          transition: .3s all;
-          color: #fff;
-          text-decoration: none; }
+        color: #fff;
+        text-decoration: none; }
 
 /* Review Styles */
 .review-section .review-container {
@@ -294,9 +339,9 @@ section {
   margin: 0 auto; }
 
 /*Application Styles*/
-.application-button-wrap {
+.application-section .application-button-wrap {
   min-width: 100%; }
-  .application-button-wrap .application-button.custom-btn {
+  .application-section .application-button-wrap .application-button.custom-btn {
     margin: 10px auto; }
 
 div.wpforms-container-full {
@@ -348,14 +393,14 @@ div.wpforms-container-full {
     margin-bottom: 10px; }
   .application-content .application-content-left {
     flex: 1 1 calc(50% - 30px);
-    min-width: 320px;
+    min-width: 300px;
     margin: 15px; }
   .application-content .application-content-right {
     flex: 1 1 calc(50% - 30px);
     background: url("../../images/apply-now-bg.jpg") no-repeat center center;
     background-size: cover;
     min-height: 300px;
-    min-width: 320px;
+    min-width: 300px;
     margin: 15px; }
 
 .application-wrapper {

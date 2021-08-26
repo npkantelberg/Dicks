@@ -1,12 +1,10 @@
 jQuery( document ).ready(function() {
+  // Open and closes the application.
   $('.application-button').on('click', function(){
     $('.application-wrapper').toggleClass('open');
-  })
-  // $(".menu-item a[href='#home']").click(function(e) {
-  //   $('html,body').animate({
-  //     scrollTop: $(".hero-section").offset().top
-  //   },'slow');
-  // });
+  });
+
+  // Menu scrolling scripts
   $(".menu-item a[href='#home']").click(function() {
     $("html").animate({ scrollTop: 0 }, "slow");
     return false;
@@ -16,7 +14,14 @@ jQuery( document ).ready(function() {
       scrollTop: $(".menu-section").offset().top - $('#header').height()},
       'slow');
   });
+  $("a.header-directions-link[href='#about-us']").click(function() {
+    console.log('button-clicked');
+    $('html,body').animate({
+      scrollTop: $(".about-section").offset().top - $('#header').height()},
+      'slow');
+  });
   $(".menu-item a[href='#about-us']").click(function() {
+    console.log('button-clicked');
     $('html,body').animate({
       scrollTop: $(".about-section").offset().top - $('#header').height()},
       'slow');
@@ -26,6 +31,17 @@ jQuery( document ).ready(function() {
       scrollTop: $(".application-section").offset().top - $('#header').height()},
       'slow');
   });
+  // $( ".menu-category" ).each(function( index ) {
+  //   var 
+  // });
+  $(".menu-category").click(function(e) {
+    e.preventDefault();
+    $('html,body').animate({
+      scrollTop: $("#" + $(this).attr('href')).offset().top - $('#header').height() - $('#header').height() - $('#header').height()},
+      'slow');
+  });
+
+  // Opens the menu on click.
   $('.mobile-menu-trigger').on("click", function(){
     $('#menu').toggleClass('open');
   })
