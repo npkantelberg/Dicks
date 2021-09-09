@@ -622,10 +622,10 @@
     <div class="about-container">
       <div class="about-box about-text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ante massa, convallis et efficitur quis, ultrices a tellus. Nullam vehicula iaculis blandit. Vivamus at viverra felis. Donec porta ac neque vitae venenatis. Curabitur quis turpis risus. Suspendisse vestibulum sollicitudin nibh at rhoncus. Donec viverra egestas lorem sit amet cursus. Praesent tempor ultricies auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce auctor facilisis rhoncus. Donec bibendum, ante ut porta pulvinar, sapien lorem iaculis ligula, sed viverra lorem tortor maximus eros. Nulla ut nisi sed sem congue efficitur. Aliquam interdum id orci id efficitur. Pellentesque eu eleifend eros.
+          Dick’s Drive Inn has been a Kaukauna favorite since 1955. Owned by Dick and Donna Sternhagen from 1954 to 1997. In 1997 Dick’s Drive Inn was purchased by Scott and Kevin Lambie and have been the owners ever since. The future plans are to keep it going as a family business and keep it the same as everyone remembers when they walk through our lobby. 
         </p>
         <p>
-          Aenean vitae odio porttitor, sollicitudin ex id, tempus felis. Aliquam ut pharetra nulla. Maecenas rhoncus, risus vel auctor rutrum, sem dolor porttitor est, in pretium ligula erat non eros. Curabitur mollis turpis a ex lacinia, nec sollicitudin leo interdum. Maecenas elementum luctus mi vel sollicitudin. Quisque malesuada neque eros. Nunc non magna tortor. Maecenas et nisi non odio accumsan elementum ut at sapien. Nunc viverra tellus massa, in malesuada enim vestibulum vel. 
+          Serving quality and reasonably priced burgers and ice cream. This family owned establishment has all the passion and dependability you could ever want in a favorite fast food restaurant. We believe that your favorite items you ordered 30 years ago should taste the same when you come in to order them today. We will continue to make all of our sauces homemade as it has been done for 65 years, because what is better than a homemade sauce? We strive to not disappoint in the quality of food along with our friendly and ambitious staff. Our dedicated staff wants to serve you while you spend time with your family at our picnic tables behind the restaurant itself. Stop on in and start making memories!
         </p>
       </div>
       <div class="hours-section">
