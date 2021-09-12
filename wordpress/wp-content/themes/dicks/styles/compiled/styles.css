@@ -252,19 +252,31 @@ section {
           font-size: 12px; } }
       .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper:nth-child(2n) {
         background: #ccc; }
-      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price .menu-price-split .price-span:not(:last-of-type) {
-        margin-right: 10px; }
+      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-item {
+        max-width: 40%; }
+      .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price {
+        max-width: 60%;
+        flex: 1;
+        text-align: right; }
+        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price .menu-price-split {
+          display: flex;
+          justify-content: space-between; }
+        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-item-wrapper .menu-price .price-span {
+          width: 100%;
+          margin-right: 5px; }
     .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types {
-      display: flex;
       width: 100%;
-      justify-content: flex-end;
-      padding: 10px; }
+      padding: 10px 0px;
+      max-width: 60%;
+      text-align: left;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
       .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types .price-type {
-        margin-right: 20px; }
-        .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .price-types .price-type:not(:last-of-type) {
-          margin-right: 30px; }
-    .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body .menu-price .menu-price-split .price-span:not(:last-of-type) {
-      margin-right: 10px; }
+        width: 100%;
+        text-align: right;
+        margin-right: 5px; }
     .menu-section .menu-container .our-menu-row .our-menu-col .card.card-body span.italic {
       font-style: italic;
       padding: 10px;

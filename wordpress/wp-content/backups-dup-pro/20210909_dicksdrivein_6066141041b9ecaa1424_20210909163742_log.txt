@@ -1,0 +1,377 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2021-09-09 16:39:28
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.7.1
+WORDPRESS:	5.3.2
+PHP INFO:	7.3.8 | SAPI: apache2handler
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.10 Perl/v5.24.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	24.5MB
+ARCHIVE ENGINE: Shell Zip
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+
+TABLES: total: 38 | filtered:0 | create:38
+SCHEMA SIZE: [4718592]
+SQL CREATED: 20210909_dicksdrivein_6066141041b9ecaa1424_20210909163742_database.sql
+SQL FILE SIZE: 2.09MB
+SQL FILE TIME: 2021-09-09 16:39:32
+SQL RUNTIME: 3.956 sec.
+MEMORY STACK: 14.5MB
+
+********************************************************************************
+ARCHIVE  Type=ZIP Mode=Shell
+********************************************************************************
+ARCHIVE DIR:  /Applications/MAMP/htdocs/dicks/wordpress
+ARCHIVE FILE: 20210909_dicksdrivein_6066141041b9ecaa1424_20210909163742_archive.zip
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	140.46MB
+STATS:	Dirs 1,990 | Files 11,875 | Total 13,865
+COMPRESSED SIZE: 52.32MB
+ARCHIVE RUNTIME: 10.734 sec.
+MEMORY STACK: 12.5MB
+DB INFO IN CREATE ARCHIV CONFIG
+DUP_PRO_DatabaseInfo Object
+(
+    [buildMode] => PHPCHUNKING
+    [charSetList] => Array
+        (
+            [0] => utf8mb4
+            [1] => utf8
+        )
+
+    [collationList] => Array
+        (
+            [0] => utf8mb4_unicode_520_ci
+            [1] => utf8_general_ci
+            [2] => utf8mb4_general_ci
+        )
+
+    [isTablesUpperCase] => 0
+    [isNameUpperCase] => 0
+    [name] => wp_dicks_drive_in
+    [tablesBaseCount] => 38
+    [tablesFinalCount] => 38
+    [tablesRowCount] => 1706
+    [tablesSizeOnDisk] => 4718592
+    [tablesList] => Array
+        (
+            [wp_actionscheduler_actions] => stdClass Object
+                (
+                    [rows] => 3
+                    [size] => 131072
+                )
+
+            [wp_actionscheduler_claims] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wp_actionscheduler_groups] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 32768
+                )
+
+            [wp_actionscheduler_logs] => stdClass Object
+                (
+                    [rows] => 7
+                    [size] => 49152
+                )
+
+            [wp_commentmeta] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wp_comments] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 98304
+                )
+
+            [wp_duplicator_pro_entities] => stdClass Object
+                (
+                    [rows] => 5
+                    [size] => 32768
+                )
+
+            [wp_duplicator_pro_packages] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wp_links] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wp_nf3_action_meta] => stdClass Object
+                (
+                    [rows] => 155
+                    [size] => 16384
+                )
+
+            [wp_nf3_actions] => stdClass Object
+                (
+                    [rows] => 7
+                    [size] => 16384
+                )
+
+            [wp_nf3_chunks] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 229376
+                )
+
+            [wp_nf3_field_meta] => stdClass Object
+                (
+                    [rows] => 961
+                    [size] => 1589248
+                )
+
+            [wp_nf3_fields] => stdClass Object
+                (
+                    [rows] => 41
+                    [size] => 16384
+                )
+
+            [wp_nf3_form_meta] => stdClass Object
+                (
+                    [rows] => 132
+                    [size] => 16384
+                )
+
+            [wp_nf3_forms] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 16384
+                )
+
+            [wp_nf3_object_meta] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_nf3_objects] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_nf3_relationships] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_nf3_upgrades] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 147456
+                )
+
+            [wp_options] => stdClass Object
+                (
+                    [rows] => 207
+                    [size] => 1114112
+                )
+
+            [wp_postmeta] => stdClass Object
+                (
+                    [rows] => 104
+                    [size] => 49152
+                )
+
+            [wp_posts] => stdClass Object
+                (
+                    [rows] => 17
+                    [size] => 114688
+                )
+
+            [wp_term_relationships] => stdClass Object
+                (
+                    [rows] => 5
+                    [size] => 32768
+                )
+
+            [wp_term_taxonomy] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wp_termmeta] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wp_terms] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wp_usermeta] => stdClass Object
+                (
+                    [rows] => 25
+                    [size] => 327680
+                )
+
+            [wp_users] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 65536
+                )
+
+            [wp_wpfb_post_templates] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_wpfb_reviews] => stdClass Object
+                (
+                    [rows] => 26
+                    [size] => 16384
+                )
+
+            [wp_wpforms_tasks_meta] => stdClass Object
+                (
+                    [rows] => 1
+                    [size] => 147456
+                )
+
+            [wp_wpgmza] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 16384
+                )
+
+            [wp_wpgmza_circles] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_wpgmza_maps] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_wpgmza_polygon] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_wpgmza_polylines] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wp_wpgmza_rectangles] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+        )
+
+    [varLowerCaseTables] => 2
+    [version] => 5.7.26
+    [versionComment] => MySQL Community Server (GPL)
+    [tableWiseRowCounts] => Array
+        (
+            [wp_actionscheduler_actions] => 3
+            [wp_actionscheduler_claims] => 0
+            [wp_actionscheduler_groups] => 2
+            [wp_actionscheduler_logs] => 7
+            [wp_commentmeta] => 0
+            [wp_comments] => 1
+            [wp_duplicator_pro_entities] => 5
+            [wp_duplicator_pro_packages] => 2
+            [wp_links] => 0
+            [wp_nf3_action_meta] => 168
+            [wp_nf3_actions] => 7
+            [wp_nf3_chunks] => 2
+            [wp_nf3_field_meta] => 969
+            [wp_nf3_fields] => 41
+            [wp_nf3_form_meta] => 132
+            [wp_nf3_forms] => 2
+            [wp_nf3_object_meta] => 0
+            [wp_nf3_objects] => 0
+            [wp_nf3_relationships] => 0
+            [wp_nf3_upgrades] => 2
+            [wp_options] => 207
+            [wp_postmeta] => 105
+            [wp_posts] => 16
+            [wp_term_relationships] => 5
+            [wp_term_taxonomy] => 2
+            [wp_termmeta] => 0
+            [wp_terms] => 2
+            [wp_usermeta] => 25
+            [wp_users] => 1
+            [wp_wpfb_post_templates] => 1
+            [wp_wpfb_reviews] => 26
+            [wp_wpforms_tasks_meta] => 1
+            [wp_wpgmza] => 2
+            [wp_wpgmza_circles] => 0
+            [wp_wpgmza_maps] => 1
+            [wp_wpgmza_polygon] => 0
+            [wp_wpgmza_polylines] => 0
+            [wp_wpgmza_rectangles] => 0
+        )
+
+    [intFieldsStruct:DUP_PRO_DatabaseInfo:private] => Array
+        (
+        )
+
+    [indexProcessedSchemaSize:DUP_PRO_DatabaseInfo:private] => Array
+        (
+        )
+
+)
+
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, /Applications/MAMP/htdocs/dicks/wordpress/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 2.09MB
+INSTALLER FILE: 73.88KB
+ARCHIVE FILE: 54.15MB 
+EXPECTED FILE/DIRECTORY COUNT: 13,865
+ACTUAL FILE/DIRECTORY COUNT: 13,866
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 18.141 sec.
+PEAK PHP MEMORY USED: 14.5MB
+DONE PROCESSING => 20210909_dicksdrivein 2021-09-09 16:39:46
+

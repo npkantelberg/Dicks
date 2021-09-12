@@ -306,31 +306,36 @@ section{
             &:nth-child(2n){
               background: #ccc;
             }
-            .menu-price{
-              .menu-price-split{
-                .price-span:not(:last-of-type){
-                  margin-right: 10px;
-                }
+            .menu-item {
+              max-width: 40%;
+            }
+            .menu-price {
+              max-width: 60%;
+              flex: 1;
+              text-align: right;
+              .menu-price-split {
+                display: flex;
+                justify-content: space-between;
+              }
+              .price-span {
+                width: 100%;
+                margin-right: 5px;
               }
             }
           }
           .price-types{
-            display: flex;
             width: 100%;
-            justify-content: flex-end;
-            padding: 10px;
+            padding: 10px 0px;
+            max-width: 60%;
+            text-align: left;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
             .price-type{
-              margin-right: 20px;
-              &:not(:last-of-type){
-                margin-right: 30px;
-              }
-            }
-          }
-          .menu-price{
-            .menu-price-split{
-              .price-span:not(:last-of-type){
-                margin-right: 10px;
-              }
+              width: 100%;
+              text-align: right;
+              margin-right: 5px;
             }
           }
           span.italic{
@@ -596,3 +601,6 @@ div.wpforms-container-full{
 .nf-form-fields-required {
   display: none;
 }
+
+
+
